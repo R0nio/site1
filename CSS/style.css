@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(135, 114, 224);
+}
+.title {
+    padding: 30px;
+    text-align: center;
+    font-size: 50px;
+}
+span {
+    color: #f95c5c;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main img
+{
+max-width: 800px;
+}
+.main-info {
+    max-width: 500px;
+}
+
+.main-info ul{
+    padding-left: 17px;
+}
+.main-info a{
+    font-size: 20px;
+    color: #f95c5c;
+    text-decoration: none;
+}
+.form{
+    max-width: 420px;
+    margin: 50px auto;
+    display: flex;flex-direction: column;
+}
+.form h2 {
+text-align: center;
+font-size: 35px;
+}
+.form input {
+    padding: 10px;
+    font-size: 23px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(175, 171, 171) ;
+}
+
+.form button {
+background-color: #f95c5c;
+padding: 16px;
+border-radius: 10px;
+font-size: 20px;
+border: 0px;
+color: rgb(255, 255, 255);
+text-transform: uppercase;
+}
+
+.form button:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: #f95c5c 3px solid;
+}
+
+.maind {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman';
+    font-style: italic;
+
+}
+
+.maind img {
+    max-width: 800px;
+}
+.maind-info {
+    max-width: 500px;
+}
+
+.maind-info p{
+    padding-left: 55px;
+}
+.maind-info h3{
+    padding-left: 60px;
+    font-size: 25px;
+}
+.text{
+width: 400px;
+height: 150px;
+padding: 10px;
+font-size: 23px;
+border-radius: 10px;
+margin-bottom: 20px;
+border: 2px solid rgb(175, 171, 171) ;
+font-family: 'Times New Roman';
+font-size: 26px;
+}
